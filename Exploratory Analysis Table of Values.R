@@ -6,6 +6,8 @@ col_3_4 <- c(profit_chart_1 - profit_buy_day_one, profit_chart_2 - profit_buy_da
 
 combined_vector <- append(col_1_2, col_3_4)
 
+combined_vector <- round(combined_vector, 2)
+
 profit_matrix <- matrix(combined_vector, ncol = 4)
 
 profit_table <- as.table(profit_matrix)

@@ -18,3 +18,4 @@ profit_buy_day_one <- AAPL_chart3 %>% filter(Date==max(Date)) %>% pull(all_one_d
 
 profit_buy_everyday <- AAPL_chart3 %>% filter(Date==max(Date)) %>% pull(cumulative_profit)/nrow(AAPL_chart3)
 
+AVG_Trade_Volume <- AAPL_chart1 %>% summarize(avg = mean(Volume))
