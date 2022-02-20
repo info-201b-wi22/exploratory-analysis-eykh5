@@ -1,5 +1,6 @@
-library(ggplot2)
 library(dplyr)
+library(ggplot2)
+library(tidyr)
 
 AAPL <-read.csv("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/data_files/AAPL.csv?token=GHSAT0AAAAAABRCCMDV75U72KWW2PYCKDHIYQ23NNQ")
 
