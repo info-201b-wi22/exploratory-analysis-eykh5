@@ -69,19 +69,31 @@ Describe why you chose this chart and what information it reveals
 Here's an example of how to run an R script inside an RMarkdown file:
 
 ```{r, echo = FALSE}
-chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABRCCMDUVCIPDAYZNISGLBQ6YQ3XAGA")
+chart1  <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABRCCMDVDJWUQ2J4AG7EUER4YQ3W7UA")
 
-plot
+print(plot)
 ```
 
 ### Chart 2
 
 Include a chart
 
+```{r, echo = FALSE}
+chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABRCCMDUVCIPDAYZNISGLBQ6YQ3XAGA")
+
+print(plot)
+```
+
 Describe why you chose this chart and what information it reveals
 
 ### Chart 3
 
 Include a chart
+
+```{r, echo = FALSE}
+chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABRCCMDU7RFY45IUQ5S3KWUOYQ3XAQA")
+
+print(plot)
+```
 
 Describe why you chose this chart and what information it reveals
