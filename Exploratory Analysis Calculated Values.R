@@ -16,10 +16,8 @@ profit_chart_2<- AAPL_chart2 %>% filter(Date==max(Date)) %>% pull(cumulative_pro
 
 profit_buy_day_one <- AAPL_chart3 %>% filter(Date==max(Date)) %>% pull(all_one_day_cumulative_profit)/nrow(AAPL_chart3)
 
-<<<<<<< HEAD
 profit_buy_everyday <- AAPL_chart3 %>% filter(Date==max(Date)) %>% pull(cumulative_profit)/nrow(AAPL_chart3)
 
 AVG_Trade_Volume <- AAPL_chart1 %>% summarize(avg = mean(Volume))
-=======
+
 profit_buy_everyday <- AAPL_chart3 %>% filter(Date==max(Date)) %>% pull(cumulative_profit)/nrow(AAPL_chart3)
->>>>>>> 1a80e528e5f851190d6d56eaf99ce278092c0ca7
