@@ -3,52 +3,104 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
+## Project title : Oliver Twist
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+> This project introduces financial concepts by comparing profits of various methods for trading stocks.
 
 ### Authors
 
-Names of your team members
+>Anumita Ghosh (aghosh7@uw.edu)  
+Everett Hirano (eykh5@uw.edu)  
+Joon Kang (kangj21@uw.edu)  
+Million Werede (Mili92@uw.edu)
 
 ### Date
 
-Winter 2022
+>Winter 2022
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+> This project focuses on introducing financial investments concepts in a simple and easy manner. It incorporates stock data visualizations and educational displays about stocks and investment terms. Understanding basic investment strategies would help beginner and intermediary investors making a informed decision.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+>1. Investment
+2. Stock
+3. Profit over time
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+> Investing in stocks is a way for individuals to put their money to work, reaping the benefits later on. As entrepreneur Langager states, investing is “a means to a happier ending” (Investopedia). While more than half of Americans own stock (Gallup), many find themselves overwhelmed with the sheer number of investing platforms and methods of investment. From buying stocks to cryptocurrency, there are many ways for individuals interested in working their money to make financial investments. Some questions arise with the prevalence of investing, however:  
+&nbsp;   
+- What are the benefits and drawbacks of long term versus short term investments?  
+- How can stock investments be more accessible and encouraged to individuals new to the process?  
+- How can individuals be effectively educated to make better investment decisions?  
+- How can investment data be visualized to make the process of investing more seamless and easy to understand?    
+&nbsp;  
+ These questions are motivated by the prevalence of individuals wanting to make smarter and more educated decisions with their money. They also address the need for a centralized platform for investment data and resources for beginners as well as experts in the stock market.
+Our project uses these questions to guide an interactive platform for users to learn about and make informed decisions with investments. From stock data visualizations to educational displays about different types of investment strategies, our project encompasses the idea of easier, smarter financial investments.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+>1. Finviz.com is a stock screener site that has up to date information on the stock market. The visualizer separates various companies into respective sectors (i.e finance, technology, communications, energy, etc…) and visualizes the performances of these subgroups. The target for finviz is different from what we are trying to accomplish, but we can definitely note the manner in which they visualized their data and find ways to improve it.  
+&nbsp;  
+2. Investopedia is predominantly an educational investment site with simulators and market trends. The website is mostly centered on educating individuals on the intricacies of investing, but they have recently created additional resources that aid individuals in researching and investing in the stock market. The target demographic we are trying to appeal to is similar so we can reference this in the production of our product.  
+&nbsp;  
+3. Yahoo Finance is a site that lists many public companies and their key performance indicators (KPI). This is a resource that many investors use to understand the intricacies of the businesses they are trying to invest in. Although educational in nature, this is not our target demographic but we can certainly borrow ques and conventions that have been established by Yahoo Finance.  
+&nbsp;  
+4. Finally, the Fool is a stock investing advice service that charges money for stock picks and investing advice. Although they do not do a whole lot of data visualization, they do have articles that they publish where they make written recommendations on what to do in the market. We ought to reference this for our recommendation sections of our product to encourage certain behaviors to new investors.
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+> **Q. Where did you find the data? Please include a link to the data source **  
+A. Yahoo Finance  
+1. Meta Platforms, Inc. (FB)  
+[Yahoo Finance Meta Platforms Link](https://finance.yahoo.com/quote/FB/history?period1=1486080000&period2=1643846400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)  
+2. Apple Inc. (AAPL)  
+[Yahoo Finance Apple Link](https://finance.yahoo.com/quote/AAPL/history?period1=1486080000&period2=1643846400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)  
+3. Amazon.com, Inc. (AMZN)  
+[Yahoo Finance Amazon Link](https://finance.yahoo.com/quote/AMZN/history?period1=1486080000&period2=1643846400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)  
+4. Netflix, Inc. (NFLX)  
+[Yahoo Finance Netflix Link](https://finance.yahoo.com/quote/NFLX/history?period1=1486080000&period2=1643846400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)  
+5. Alphabet Inc. (GOOG)  
+[Yahoo Finance Google Link](https://finance.yahoo.com/quote/GOOG/history?period1=1486080000&period2=1643846400&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true)
+
+> **Q. Who collected the data?**  
+A. ICE Data Service.
+
+> **Q. How was the data collected or generated?**  
+A. Crawl daily data from NASDAQ and NYSE as generated at the end of the market everyday.
+
+> **Q. Why was the data collected?**    
+A. The data was collected In order to provide corporate and individual investors full information about the stocks.
+
+> **Q. How many observations (rows) are in your data?**   
+A. 1260 observations.
+
+> **Q. How many features (columns) are in the data?**  
+A. 7 features.
+
+> **Q. What, if any, ethical questions or questions of power do you need to consider when working with this data?**    
+A. I do not think any ethical or source of power question would apply to the data as it is a objective, fact-based data.
+
+> **Q. What are possible limitations or problems with this data? (at least 200 words)**  
+A. It is true that the data shows daily price changes of stocks, such as “Open Price”, “Daily High”, “Daily Low”, “Close Price”, and “Volume”. This might be enough for some investors, especially those who identify themselves as long-term investors, but as it does not show hourly and minutely price changes within the daily margins, it clearly does not show full information about the market. This might be crucial to short term investors who buy and sell stocks within a day.    
+&nbsp;  
+ Another possible limitation would be its time span.  Amazon, for example, initially went public on May 15, 1997.  Since Amazon went public, it has been continuously listed on the NASDAQ stock market, but the data we have collected only records from 2017, which is around a five years span. Though some might believe that five years worth of data is enough to understand the trend, the data with a short span might not encompass the impact of macro-scale social and economic trends. Since it only records after 2017, the data does not represent the impact of Lehman Brothers collapse. The market could be a Bull-market throughout the time-span of the data which might not represent the true trend of a stock in the long-term aspect.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+>  of 2020, 55% of US adults are investing in stocks, meaning that over 40 percent of the adults are not investing in stock. With inflation at an all time high, this means that those who did not invest and hold their money in cash are affected by the inflation. By making these resources more accessible to this demographic, we can educate and encourage them to begin their investing journey. The implications of this for public companies is that there is greater capital invested and thus the economy will be able to grow at a faster rate.  
+With regards to individuals making better investment decisions, if investors learn the intricacies of the market, they will be able to avoid situations in the future like Gamestop and AMC, where individuals and the market was hurt by bad actors and irrational behaviors of the market. The individual investors have to check and analyze the previous stock data to have a good vision for investing in the long-term or the short-term.  
+&nbsp;  
+ With a proper visualization of stock data, we can easily and powerfully make prospective investors realize that their assets are losing value and the risk that they take on by investing in the market is less significant than the loss in value accrued by not putting their assets to work.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+> The challenge we have to consider when working on our project idea is the nature of the data we are going to use and how that will affect the viability of our product. We currently have 2 available options to us: use an API to retrieve dynamic data or to use static data that has already been compiled. The benefit of using dynamic data is that we get up to date information of the markets and thus able to give better data for our users. On the other hand, the dynamic nature of the database may cause the manner in which we parse our data to fall apart should there be an update to the data framework. As for the static data set, the benefit is that the chances of any alterations taking place to the data will be severely reduced, but it will also mean that the data we have will be less relevant as time goes on.  
+&nbsp;  
+ With regards to limitations of our product, our product will not be very helpful to current investors. Our product will be used to educate people on the importance of investing and making a resource more accessible to those ends. This inherently makes our product less appealing to active investors.
+
 
 ### Summary Information
 
@@ -62,38 +114,35 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1
 
-Include a chart
+```{r, echo = FALSE, message = F, warning = F}
+chart1  <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABQKLL3C5S6J7MESSWOJAMFKYQ34YJQ")
 
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-```{r, echo = FALSE, warning = FALSE, message = FALSE}
-chart1  <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABRCCMDVDJWUQ2J4AG7EUER4YQ3W7UA")
-
-print(plot)
+plot
 ```
+
+> Description of Chart 1  
+ Type here
+
+
 
 ### Chart 2
 
-Include a chart
+```{r, echo = FALSE, message = F, warning = F}
+chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABQKLL3DQJ5AFHSL65S6EZNSYQ34YXQ")
 
-```{r, echo = FALSE}
-chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABRCCMDUVCIPDAYZNISGLBQ6YQ3XAGA")
-
-print(plot)
+plot
 ```
 
-Describe why you chose this chart and what information it reveals
+> Description of Chart 2  
+ Type here
 
 ### Chart 3
 
-Include a chart
+```{r, echo = FALSE, message = F, warning = F}
+chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABQKLL3C4OXKRGT5ACILJWDWYQ34ZBA")
 
-```{r, echo = FALSE}
-chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABRCCMDU7RFY45IUQ5S3KWUOYQ3XAQA")
-
-print(plot)
+plot
 ```
 
-Describe why you chose this chart and what information it reveals
+> Description of Chart 3  
+ Type here

@@ -11,5 +11,5 @@ AAPL[is.na(AAPL)] = 0
 
 AAPL$cumulative_profit = cumsum(AAPL$buy_at_closing_sell_at_opneing)
 
-plot <- ggplot(data = AAPL) + geom_point(mapping = aes(as.Date(Date), y = cumulative_profit)) +
+plot <- ggplot(data = AAPL) + geom_col(mapping = aes(as.Date(Date), y = cumulative_profit, color = cumulative_profit)) +
   labs(x = "Date", y = "Cumulative Profit of buying at Closing, selling at Opening", title = "Buying at Closing and Selling at Opening")

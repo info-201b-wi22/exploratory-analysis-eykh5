@@ -1,6 +1,6 @@
-chart1 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABRCCMDVDJWUQ2J4AG7EUER4YQ3W7UA")
-chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABRCCMDUVCIPDAYZNISGLBQ6YQ3XAGA")
-chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABRCCMDU7RFY45IUQ5S3KWUOYQ3XAQA")
+chart1 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABQKLL3C5S6J7MESSWOJAMFKYQ34YJQ")
+chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABQKLL3DQJ5AFHSL65S6EZNSYQ34YXQ")
+chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABQKLL3C4OXKRGT5ACILJWDWYQ34ZBA")
 
 library(dplyr)
 
