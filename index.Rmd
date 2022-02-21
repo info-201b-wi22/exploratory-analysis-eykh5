@@ -145,4 +145,4 @@ plot
 ```
 
 > Description of Chart 3  
- Type here
+Chart 3 compares the profit that one would reap from investing in 1 Apple stock every day for a period of 5 years versus investing 5 years worth of stocks all on day 1 and holding onto them. Through this chart, we hope to demonstrate that investing done with a long term views tend to perform better than investing small amounts everyday. 
