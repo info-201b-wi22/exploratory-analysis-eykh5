@@ -12,7 +12,7 @@ profit_matrix <- matrix(combined_vector, ncol = 4)
 
 profit_table <- as.table(profit_matrix)
 
-colnames(profit_table) <- c("Buy At Closing |", "Buy At Opening |", "Buy & Hold |", "Buy One Everyday")
+colnames(profit_table) <- c("Buy At Closing|", "Buy At Opening|", "Buy & Hold|", "Buy One Everyday")
 
 rownames(profit_table) <-c("Buy At Closing", "Buy At Opening", "Buy & Hold", "Buy One Everyday")
 
