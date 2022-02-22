@@ -20,4 +20,4 @@ profit_buy_everyday <- AAPL_chart3 %>% filter(Date==max(Date)) %>% pull(cumulati
 
 AVG_Trade_Volume <- AAPL_chart1 %>% summarize(avg = mean(Volume))
 
-value <- c(profit_chart_1, profit_chart_2, profit_buy_day_one, profit_buy_everyday, AVG_Trade_Volume)
+value <- c("0" = profit_chart_1, "1" = profit_chart_2, "2" = profit_buy_day_one, "3" = profit_buy_everyday, "4" = AVG_Trade_Volume)
