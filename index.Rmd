@@ -104,24 +104,24 @@ With regards to individuals making better investment decisions, if investors lea
 
 ### Summary Information
 
-```{r, echo = F, message = F, warning = F}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 calc_val <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Calculated%20Values.R?token=GHSAT0AAAAAABRCCMDUIHFNQS4WILHR673SYQ5MMNA")
 
 # The values listed below is the dollar amount of profit you would have experienced per share if you had followed each respective investing strategy:
   
   #Buy at close, sell at opening:
-  calc_val[["0"]]
+  calc_val$value[1]
   # Buy at opening, sell at close:
-  calc_val[["1"]]
+  calc_val$value[2]
   # Buy and Hold:
-  calc_val[["2"]]
+  calc_val$value[3]
   # Buy one stock everyday :
-  calc_val[["3"]]
+  calc_val$value[4]
   
 # Here would be a good time to bring up a relevant metric that has not been discussed too much thus far: the trade volume metric.
 # Although seemingly trivial, this metric determines how easily you can access the profits you have built. At the end of the day, the stock market is like any other market. Which is to say, someone out there has to want to buy your stuff or you are left with useless certifications that show your ownership/stake in a company. No matter how attractive, make sure that the security/stock you are trading has a decent amount of Trade Volume otherwise you will never be able to realize your gains.
 # Apple 5 Year Average Trade Volume:
-calc_val[["4"]]
+calc_val$value$avg
 ```
 
 ### Table
