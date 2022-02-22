@@ -168,7 +168,7 @@ plot
 
 > Description of Chart 2  
  This chart shows an accumulative profit of buying Apple's stock at opening price and selling it at closing price everyday. With the geom_col(bar) chart, it is clear whether or not you are making profit everyday, especially the transition from positive to negative profit.
-  Though there are lots of misconception that daytrading will lose you a money, this chart somewhat proves that one can earn some money through daytrading if the stock itself goes in upward trend.
+Though there are lots of misconceptions that daytrading will lose you a money, this chart somewhat proves that one can earn some money through daytrading if the stock itself goes in upward trend.
 
 ### Chart 3
 
