@@ -104,13 +104,20 @@ With regards to individuals making better investment decisions, if investors lea
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+```{r, echo = F, message = F, warning = F}
+calc_val <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Calculated%20Values.R?token=GHSAT0AAAAAABRCCMDVZ64REQTHITQTLNBUYQ5MI3A")
+```
 
 ### Table
 
 Include a table of aggregate information
 
-Describe why you included the table and what information it reveals
+``` {r, echo = False, message = F, warning = F}
+table <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Table%20of%20Values.R?token=GHSAT0AAAAAABRCCMDUZYFGRM7DG3PTHFI6YQ5L4SA")
+
+```
+
+Our table shows the difference in profits generated per share depending on your investing strategy in a 4X4 table format. The values are calculated in a (col - row) format. This shows you which strategies are best suited to making the most amount of money consistently in the market. 
 
 ### Chart 1
 
