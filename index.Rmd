@@ -110,7 +110,7 @@ Buy at close, sell at opening:
 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-calc_val <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Calculated%20Values.R?token=GHSAT0AAAAAABRCCMDUIHFNQS4WILHR673SYQ5MMNA")
+calc_val <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Calculated%20Values.R?token=GHSAT0AAAAAABRCCMDUD3YFTKJ7IDT2NVPMYQ5TFMA")
 paste("$", calc_val$value[1], 2)
 ```
 Buy at opening, sell at close:
