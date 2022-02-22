@@ -147,7 +147,7 @@ Our table shows the difference in profits generated per share depending on your 
 ### Chart 1
 
 ```{r, echo = FALSE, message = F, warning = F}
-chart1  <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABQKLL3C5S6J7MESSWOJAMFKYQ34YJQ")
+chart1  <- source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%201.R?token=GHSAT0AAAAAABR2HSNQ6XLHX44Y2W4YWWSMYQ5TLVQ")
 
 plot
 ```
@@ -161,7 +161,7 @@ plot
 ### Chart 2
 
 ```{r, echo = FALSE, message = F, warning = F}
-chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABQKLL3DQJ5AFHSL65S6EZNSYQ34YXQ")
+chart2 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%202.R?token=GHSAT0AAAAAABR2HSNQ4GE3L2TIQXWKZSIUYQ5TL4A")
 
 plot
 ```
@@ -173,7 +173,7 @@ Though there are lots of misconceptions that daytrading will lose you a money, t
 ### Chart 3
 
 ```{r, echo = FALSE, message = F, warning = F}
-chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABQKLL3C4OXKRGT5ACILJWDWYQ34ZBA")
+chart3 <-source("https://raw.githubusercontent.com/info-201b-wi22/exploratory-analysis-eykh5/main/Exploratory%20Analysis%20Chart%203.R?token=GHSAT0AAAAAABR2HSNRGUTH5CK2RQUP5IP2YQ5TMEA")
 
 plot
 ```
